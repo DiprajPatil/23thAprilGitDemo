@@ -43,11 +43,11 @@ public class TestNGListeners extends BaseTest implements ITestListener{
 	@Override
 	public void onTestSkipped(ITestResult result) {
 		System.out.println("Testcase get skiped for method "+result.getName());
+		test.log(Status.SKIP, "Test case got skipped");
 	}
 	@Override
 	public void onStart(ITestContext context) {
 		System.out.println("Testing get started on method "+context.getName());
-		test.log(Status.SKIP, "Test case got skipped");
 	}
 	@Override
 	public void onFinish(ITestContext context) {
