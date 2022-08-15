@@ -4,7 +4,7 @@ public class frature {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("hi prachi");
+		System.out.println("hi dipraj");
 	}
 
 }
